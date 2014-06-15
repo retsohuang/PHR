@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F24F05DF194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F05DE194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift */; };
+		F24F05E1194C9BB80065ABA2 /* PHRPatientInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F05E0194C9BB80065ABA2 /* PHRPatientInfoTableViewController.swift */; };
 		F250206C19431A03002B3AA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250206B19431A03002B3AA9 /* AppDelegate.swift */; };
 		F250207119431A03002B3AA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F250206F19431A03002B3AA9 /* Main.storyboard */; };
 		F250207319431A03002B3AA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F250207219431A03002B3AA9 /* Images.xcassets */; };
 		F250207F19431A03002B3AA9 /* PHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250207E19431A03002B3AA9 /* PHRTests.swift */; };
 		F257C9C81944866D00F08740 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F257C9C71944866D00F08740 /* CoreLocation.framework */; };
 		F2D3DCB2194452280032B64F /* PHRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */; };
+		F2E9156F194D589700C89505 /* PHRMeetingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */; };
+		F2E91571194D5CED00C89505 /* PHRCaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F24F05DE194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRTreatPlanTableViewController.swift; sourceTree = "<group>"; };
+		F24F05E0194C9BB80065ABA2 /* PHRPatientInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRPatientInfoTableViewController.swift; sourceTree = "<group>"; };
 		F250206619431A03002B3AA9 /* PHR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F250206A19431A03002B3AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F250206B19431A03002B3AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		F250207E19431A03002B3AA9 /* PHRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHRTests.swift; sourceTree = "<group>"; };
 		F257C9C71944866D00F08740 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRLoginViewController.swift; sourceTree = "<group>"; };
+		F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMeetingTableViewController.swift; sourceTree = "<group>"; };
+		F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRCaseTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +132,11 @@
 		F2D3DCAF194452030032B64F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */,
 				F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */,
+				F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */,
+				F24F05E0194C9BB80065ABA2 /* PHRPatientInfoTableViewController.swift */,
+				F24F05DE194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -236,7 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E91571194D5CED00C89505 /* PHRCaseTableViewController.swift in Sources */,
+				F2E9156F194D589700C89505 /* PHRMeetingTableViewController.swift in Sources */,
+				F24F05E1194C9BB80065ABA2 /* PHRPatientInfoTableViewController.swift in Sources */,
 				F250206C19431A03002B3AA9 /* AppDelegate.swift in Sources */,
+				F24F05DF194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift in Sources */,
 				F2D3DCB2194452280032B64F /* PHRLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
