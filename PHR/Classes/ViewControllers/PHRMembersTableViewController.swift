@@ -1,5 +1,5 @@
 //
-//  PHRMeetingTableViewController.swift
+//  PHRMembersTableViewController.swift
 //  PHR
 //
 //  Created by Retso Huang on 6/15/14.
@@ -8,18 +8,19 @@
 
 import UIKit
 
-class PHRMeetingTableViewController: UITableViewController {
+class PHRMembersTableViewController: UITableViewController {
 
   init(coder aDecoder: NSCoder!) {
     super.init(coder: aDecoder)
   }
-
+  
   override func viewDidLoad() {
     super.viewDidLoad()
+    self.title = "Members"
   }
-
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
   }
-  
+
 }
