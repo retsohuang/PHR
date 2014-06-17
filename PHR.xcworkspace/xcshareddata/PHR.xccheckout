@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7DB5590F-4F3E-4F6D-B0DD-A16CE5485D26</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PHR</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E98E85CA-4A34-47A4-86C7-AD2A3D3585CA</key>
+		<string>ssh://github.com/retsohuang/PHR.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PHR.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E98E85CA-4A34-47A4-86C7-AD2A3D3585CA</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/retsohuang/PHR.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E98E85CA-4A34-47A4-86C7-AD2A3D3585CA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E98E85CA-4A34-47A4-86C7-AD2A3D3585CA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PHR</string>
+		</dict>
+	</array>
+</dict>
+</plist>

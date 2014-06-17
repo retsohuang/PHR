@@ -10,15 +10,13 @@ import UIKit
 
 class PHRLoginViewController: UIViewController {
   
-  let IWWebServerURL:NSURL = NSURL.URLWithString("http://apple.conm.tw")
-  
   override func viewDidLoad() {
     super.viewDidLoad()
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
-    // Dispose of any resources that can be recreated.
+    
   }
   
   override func viewDidAppear(animated: Bool) {
