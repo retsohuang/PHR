@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0600"
-   version = "1.3">
+   version = "1.7">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -82,5 +82,23 @@
    <ArchiveAction
       buildConfiguration = "Release"
       revealArchiveInOrganizer = "YES">
+      <PostActions>
+         <ExecutionAction
+            ActionType = "Xcode.IDEStandardExecutionActionsCore.ExecutionActionType.ShellScriptAction">
+            <ActionContent
+               title = "Distribute to crashlytics"
+               scriptText = "${SOURCE_ROOT}/Crashlytics.framework/submit 5bce14ff3533d0e486257f55f5ffafcd0390697b  2d4e7529dee6affabdfb767467d362448cc2247c7986975ea1e737c29f22c4e2">
+               <EnvironmentBuildable>
+                  <BuildableReference
+                     BuildableIdentifier = "primary"
+                     BlueprintIdentifier = "F285613F19505EC8005AB178"
+                     BuildableName = "PHRDemo.app"
+                     BlueprintName = "PHRDemo"
+                     ReferencedContainer = "container:PHR.xcodeproj">
+                  </BuildableReference>
+               </EnvironmentBuildable>
+            </ActionContent>
+         </ExecutionAction>
+      </PostActions>
    </ArchiveAction>
 </Scheme>

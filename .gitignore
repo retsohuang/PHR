@@ -1,5 +1,8 @@
 # Created by http://www.gitignore.io
 
+# System #
+.DS_Store
+
 ### Objective-C ###
 # Xcode
 #

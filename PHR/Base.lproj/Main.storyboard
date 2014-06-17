@@ -2130,7 +2130,7 @@
         <!--Login View Controller-->
         <scene sceneID="AYk-pt-ukW">
             <objects>
-                <viewController id="3ae-TO-t1m" customClass="PHRLoginViewController" customModule="PHR" sceneMemberID="viewController">
+                <viewController id="3ae-TO-t1m" customClass="PHRLoginViewController" customModule="PHR" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Vqi-XE-obS"/>
                         <viewControllerLayoutGuide type="bottom" id="9yq-wX-Cme"/>
