@@ -16,6 +16,8 @@
 		F250207F19431A03002B3AA9 /* PHRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250207E19431A03002B3AA9 /* PHRTests.swift */; };
 		F265271E194DA97700C7663C /* PHRMeetingInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265271D194DA97700C7663C /* PHRMeetingInfoTableViewController.swift */; };
 		F2652722194DAD1700C7663C /* PHRMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2652721194DAD1700C7663C /* PHRMembersTableViewController.swift */; };
+		F285613C19505CF5005AB178 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285613B19505CF5005AB178 /* Crashlytics.framework */; };
+		F285613E19505E3D005AB178 /* PHRMoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285613D19505E3D005AB178 /* PHRMoreTableViewController.swift */; };
 		F2D3DCB2194452280032B64F /* PHRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */; };
 		F2E9156F194D589700C89505 /* PHRMeetingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */; };
 		F2E91571194D5CED00C89505 /* PHRCaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */; };
@@ -47,6 +49,8 @@
 		F265271D194DA97700C7663C /* PHRMeetingInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMeetingInfoTableViewController.swift; sourceTree = "<group>"; };
 		F2652721194DAD1700C7663C /* PHRMembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMembersTableViewController.swift; sourceTree = "<group>"; };
 		F2652723194DE74900C7663C /* PHRBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHRBridgingHeader.h; sourceTree = "<group>"; };
+		F285613B19505CF5005AB178 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		F285613D19505E3D005AB178 /* PHRMoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMoreTableViewController.swift; sourceTree = "<group>"; };
 		F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRLoginViewController.swift; sourceTree = "<group>"; };
 		F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMeetingTableViewController.swift; sourceTree = "<group>"; };
 		F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRCaseTableViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F285613C19505CF5005AB178 /* Crashlytics.framework in Frameworks */,
 				B8957A1FF95948B9B8B6FF9F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +79,7 @@
 		BD5AEF87177A490FA561D83B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F285613B19505CF5005AB178 /* Crashlytics.framework */,
 				4CC6856976FE4301ADF25483 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -154,6 +160,7 @@
 				F24F05DE194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift */,
 				F265271D194DA97700C7663C /* PHRMeetingInfoTableViewController.swift */,
 				F2652721194DAD1700C7663C /* PHRMembersTableViewController.swift */,
+				F285613D19505E3D005AB178 /* PHRMoreTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -179,6 +186,7 @@
 				F250206319431A03002B3AA9 /* Frameworks */,
 				F250206419431A03002B3AA9 /* Resources */,
 				4D15E9AE43004E02956734BC /* Copy Pods Resources */,
+				F285613A19505C96005AB178 /* Crashlytics */,
 			);
 			buildRules = (
 			);
@@ -294,6 +302,20 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		F285613A19505C96005AB178 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 5bce14ff3533d0e486257f55f5ffafcd0390697b 2d4e7529dee6affabdfb767467d362448cc2247c7986975ea1e737c29f22c4e2";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -306,6 +328,7 @@
 				F2652722194DAD1700C7663C /* PHRMembersTableViewController.swift in Sources */,
 				F2E9156F194D589700C89505 /* PHRMeetingTableViewController.swift in Sources */,
 				F24F05E1194C9BB80065ABA2 /* PHRPatientInfoTableViewController.swift in Sources */,
+				F285613E19505E3D005AB178 /* PHRMoreTableViewController.swift in Sources */,
 				F250206C19431A03002B3AA9 /* AppDelegate.swift in Sources */,
 				F24F05DF194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift in Sources */,
 				F2D3DCB2194452280032B64F /* PHRLoginViewController.swift in Sources */,
@@ -425,6 +448,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PHR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -439,6 +466,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PHR/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

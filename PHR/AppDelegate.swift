@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     Parse.setApplicationId("LiD1T9ZH5iRJyEe9OQazMQtt4q5hy9wXRiaog9tm", clientKey: "5f0HPS02r1AsG7Wxca11CggPNqhHkLoX1AMAfNT0")
     
+    Crashlytics.startWithAPIKey("5bce14ff3533d0e486257f55f5ffafcd0390697b")
+    
     return true
   }
 
