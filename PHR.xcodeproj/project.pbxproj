@@ -44,6 +44,13 @@
 			remoteGlobalIDString = F250206519431A03002B3AA9;
 			remoteInfo = PHR;
 		};
+		F285615819506011005AB178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F250205E19431A03002B3AA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F250206519431A03002B3AA9;
+			remoteInfo = PHR;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -235,6 +242,7 @@
 			);
 			dependencies = (
 				F250207A19431A03002B3AA9 /* PBXTargetDependency */,
+				F285615919506011005AB178 /* PBXTargetDependency */,
 			);
 			name = PHRTests;
 			productName = PHRTests;
@@ -293,8 +301,8 @@
 			projectRoot = "";
 			targets = (
 				F250206519431A03002B3AA9 /* PHR */,
-				F250207719431A03002B3AA9 /* PHRTests */,
 				F285613F19505EC8005AB178 /* PHRDemo */,
+				F250207719431A03002B3AA9 /* PHRTests */,
 			);
 		};
 /* End PBXProject section */
@@ -467,6 +475,11 @@
 			target = F250206519431A03002B3AA9 /* PHR */;
 			targetProxy = F250207919431A03002B3AA9 /* PBXContainerItemProxy */;
 		};
+		F285615919506011005AB178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F250206519431A03002B3AA9 /* PHR */;
+			targetProxy = F285615819506011005AB178 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -636,6 +649,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chung-Ho Hsieh (SXF258AH56)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -644,6 +658,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = PHRDemo;
+				PROVISIONING_PROFILE = "BD93DEA8-55CF-4EF2-943F-6D2CE75B717F";
 				SWIFT_OBJC_BRIDGING_HEADER = PHR/Classes/Generic/PHRBridgingHeader.h;
 			};
 			name = Debug;
@@ -654,6 +669,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Chung-Ho Hsieh (SXF258AH56)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -662,6 +678,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = PHRDemo;
+				PROVISIONING_PROFILE = "BD93DEA8-55CF-4EF2-943F-6D2CE75B717F";
 				SWIFT_OBJC_BRIDGING_HEADER = PHR/Classes/Generic/PHRBridgingHeader.h;
 			};
 			name = Release;

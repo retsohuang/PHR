@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F285613F19505EC8005AB178"
-               BuildableName = "PHR copy.app"
+               BuildableName = "PHRDemo.app"
                BlueprintName = "PHRDemo"
                ReferencedContainer = "container:PHR.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F285613F19505EC8005AB178"
-            BuildableName = "PHR copy.app"
+            BuildableName = "PHRDemo.app"
             BlueprintName = "PHRDemo"
             ReferencedContainer = "container:PHR.xcodeproj">
          </BuildableReference>
@@ -52,7 +52,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F285613F19505EC8005AB178"
-            BuildableName = "PHR copy.app"
+            BuildableName = "PHRDemo.app"
             BlueprintName = "PHRDemo"
             ReferencedContainer = "container:PHR.xcodeproj">
          </BuildableReference>
@@ -70,7 +70,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F285613F19505EC8005AB178"
-            BuildableName = "PHR copy.app"
+            BuildableName = "PHRDemo.app"
             BlueprintName = "PHRDemo"
             ReferencedContainer = "container:PHR.xcodeproj">
          </BuildableReference>
