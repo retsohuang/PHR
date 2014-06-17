@@ -18,6 +18,19 @@
 		F2652722194DAD1700C7663C /* PHRMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2652721194DAD1700C7663C /* PHRMembersTableViewController.swift */; };
 		F285613C19505CF5005AB178 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285613B19505CF5005AB178 /* Crashlytics.framework */; };
 		F285613E19505E3D005AB178 /* PHRMoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285613D19505E3D005AB178 /* PHRMoreTableViewController.swift */; };
+		F285614219505EC8005AB178 /* PHRCaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */; };
+		F285614319505EC8005AB178 /* PHRMeetingInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F265271D194DA97700C7663C /* PHRMeetingInfoTableViewController.swift */; };
+		F285614419505EC8005AB178 /* PHRMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2652721194DAD1700C7663C /* PHRMembersTableViewController.swift */; };
+		F285614519505EC8005AB178 /* PHRMeetingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */; };
+		F285614619505EC8005AB178 /* PHRPatientInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F05E0194C9BB80065ABA2 /* PHRPatientInfoTableViewController.swift */; };
+		F285614719505EC8005AB178 /* PHRMoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F285613D19505E3D005AB178 /* PHRMoreTableViewController.swift */; };
+		F285614819505EC8005AB178 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250206B19431A03002B3AA9 /* AppDelegate.swift */; };
+		F285614919505EC8005AB178 /* PHRTreatPlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24F05DE194B4F920065ABA2 /* PHRTreatPlanTableViewController.swift */; };
+		F285614A19505EC8005AB178 /* PHRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */; };
+		F285614C19505EC8005AB178 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F285613B19505CF5005AB178 /* Crashlytics.framework */; };
+		F285614D19505EC8005AB178 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC6856976FE4301ADF25483 /* libPods.a */; };
+		F285614F19505EC8005AB178 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F250206F19431A03002B3AA9 /* Main.storyboard */; };
+		F285615019505EC8005AB178 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F250207219431A03002B3AA9 /* Images.xcassets */; };
 		F2D3DCB2194452280032B64F /* PHRLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */; };
 		F2E9156F194D589700C89505 /* PHRMeetingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */; };
 		F2E91571194D5CED00C89505 /* PHRCaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */; };
@@ -51,6 +64,8 @@
 		F2652723194DE74900C7663C /* PHRBridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHRBridgingHeader.h; sourceTree = "<group>"; };
 		F285613B19505CF5005AB178 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		F285613D19505E3D005AB178 /* PHRMoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMoreTableViewController.swift; sourceTree = "<group>"; };
+		F285615619505EC8005AB178 /* PHRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PHRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F285615719505EC8005AB178 /* PHRDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PHRDemo-Info.plist"; path = "/Users/retsohuang/Dropbox/FJU/Developer/PHR/PHRDemo-Info.plist"; sourceTree = "<absolute>"; };
 		F2D3DCB1194452280032B64F /* PHRLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRLoginViewController.swift; sourceTree = "<group>"; };
 		F2E9156E194D589700C89505 /* PHRMeetingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRMeetingTableViewController.swift; sourceTree = "<group>"; };
 		F2E91570194D5CED00C89505 /* PHRCaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PHRCaseTableViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +85,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285614B19505EC8005AB178 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285614C19505EC8005AB178 /* Crashlytics.framework in Frameworks */,
+				F285614D19505EC8005AB178 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +117,7 @@
 				F250206719431A03002B3AA9 /* Products */,
 				277AD14302414979875DEBA0 /* Pods.xcconfig */,
 				BD5AEF87177A490FA561D83B /* Frameworks */,
+				F285615719505EC8005AB178 /* PHRDemo-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,7 @@
 			children = (
 				F250206619431A03002B3AA9 /* PHR.app */,
 				F250207819431A03002B3AA9 /* PHRTests.xctest */,
+				F285615619505EC8005AB178 /* PHRDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -215,6 +241,26 @@
 			productReference = F250207819431A03002B3AA9 /* PHRTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F285613F19505EC8005AB178 /* PHRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F285615319505EC8005AB178 /* Build configuration list for PBXNativeTarget "PHRDemo" */;
+			buildPhases = (
+				F285614019505EC8005AB178 /* Check Pods Manifest.lock */,
+				F285614119505EC8005AB178 /* Sources */,
+				F285614B19505EC8005AB178 /* Frameworks */,
+				F285614E19505EC8005AB178 /* Resources */,
+				F285615119505EC8005AB178 /* Copy Pods Resources */,
+				F285615219505EC8005AB178 /* Crashlytics */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PHRDemo;
+			productName = PHR;
+			productReference = F285615619505EC8005AB178 /* PHRDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -248,6 +294,7 @@
 			targets = (
 				F250206519431A03002B3AA9 /* PHR */,
 				F250207719431A03002B3AA9 /* PHRTests */,
+				F285613F19505EC8005AB178 /* PHRDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -266,6 +313,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285614E19505EC8005AB178 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285614F19505EC8005AB178 /* Main.storyboard in Resources */,
+				F285615019505EC8005AB178 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +372,50 @@
 			shellPath = /bin/sh;
 			shellScript = "./Crashlytics.framework/run 5bce14ff3533d0e486257f55f5ffafcd0390697b 2d4e7529dee6affabdfb767467d362448cc2247c7986975ea1e737c29f22c4e2";
 		};
+		F285614019505EC8005AB178 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F285615119505EC8005AB178 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F285615219505EC8005AB178 /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Crashlytics;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 5bce14ff3533d0e486257f55f5ffafcd0390697b 2d4e7529dee6affabdfb767467d362448cc2247c7986975ea1e737c29f22c4e2";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -340,6 +440,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F250207F19431A03002B3AA9 /* PHRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F285614119505EC8005AB178 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F285614219505EC8005AB178 /* PHRCaseTableViewController.swift in Sources */,
+				F285614319505EC8005AB178 /* PHRMeetingInfoTableViewController.swift in Sources */,
+				F285614419505EC8005AB178 /* PHRMembersTableViewController.swift in Sources */,
+				F285614519505EC8005AB178 /* PHRMeetingTableViewController.swift in Sources */,
+				F285614619505EC8005AB178 /* PHRPatientInfoTableViewController.swift in Sources */,
+				F285614719505EC8005AB178 /* PHRMoreTableViewController.swift in Sources */,
+				F285614819505EC8005AB178 /* AppDelegate.swift in Sources */,
+				F285614919505EC8005AB178 /* PHRTreatPlanTableViewController.swift in Sources */,
+				F285614A19505EC8005AB178 /* PHRLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +630,42 @@
 			};
 			name = Release;
 		};
+		F285615419505EC8005AB178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277AD14302414979875DEBA0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "PHRDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = PHRDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = PHR/Classes/Generic/PHRBridgingHeader.h;
+			};
+			name = Debug;
+		};
+		F285615519505EC8005AB178 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277AD14302414979875DEBA0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "PHRDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = PHRDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = PHR/Classes/Generic/PHRBridgingHeader.h;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -540,6 +692,15 @@
 			buildConfigurations = (
 				F250208619431A03002B3AA9 /* Debug */,
 				F250208719431A03002B3AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F285615319505EC8005AB178 /* Build configuration list for PBXNativeTarget "PHRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F285615419505EC8005AB178 /* Debug */,
+				F285615519505EC8005AB178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
