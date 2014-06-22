@@ -8,4 +8,3 @@
 
 #import <Parse/Parse.h>
 #import <Crashlytics/Crashlytics.h>
-#import <HockeySDK/HockeySDK.h>

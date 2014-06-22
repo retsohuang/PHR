@@ -8,10 +8,20 @@
 
 import UIKit
 
-class PHRLoginViewController: UIViewController {
+class PHRLoginViewController: PFLogInViewController {
+  
+  init(coder aDecoder: NSCoder!) {
+    super.init(coder: aDecoder)
+    self.logInView.dismissButton.hidden = true
+    self.logInView.signUpLabel.hidden = true
+    self.logInView.signUpButton.hidden = true
+  }
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    if PFUser.currentUser() {
+      
+    }
   }
 
   override func didReceiveMemoryWarning() {
